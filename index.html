@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="./assets/img/Logo.png" alt="logo alura" id="logo-alura" class="logo">
+    </header>
+    <main>
+        <form class="form-section">
+            <textarea class="form-input" name="mensaje" id="mensaje" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="btn-container">
+                <div class="alert-msj">
+                    <span><i class="bi bi-exclamation-octagon-fill"></i> Solo letras minúsculas y sin acentos</span>
+                </div>
+            </div>
+            <div class="submit--container">
+                <input class="form-btn" type="submit" value="Encriptar">
+                <input class="form-btn form-btn--secundary" type="submit" value="Desencriptar" id="btn-desencriptar">
+            </div>
+        </form>
+        <aside class="result">
+            <img src="./assets/img/Muñeco.png" alt="imagen-muñeco" class="result-img">
+            <div class="loader hidden"></div>
+            <div class="result-container">
+                <h3 class="result-title">Ningún mensaje fue encontrado</h3>
+                <p class="result-subtittle">Ingresa el texto que desees encriptar o desencriptar .</p>
+                <textarea class="result-text" name="mensaje" id="mensaje" placeholder="" cols="30"></textarea>
+            </div>
+            <button class="result--btn form-btn form-btn--secundary hidden" id="btn-copy">Copiar</button>
+        </aside>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <a class="icon" href="https://github.com/joel-achata" target="_blank" aria-label="GitHub"><i
+                    class="bi bi-github"></i>
+            </a>
+            <a class="icon" href="www.linkedin.com/in/j-elias" target="_blank" aria-label="LinkedIn"><i
+                    class="bi bi-linkedin"></i>
+            </a>
+        </div>
+        <div class="footer-credits">
+            <p><i class="bi bi-c-circle"></i> creado por <a href="https://github.com/joel-achata">Joel-Achata</a></p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
