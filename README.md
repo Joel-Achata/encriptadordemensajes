@@ -1,4 +1,4 @@
-¡Claro! Un buen README para un proyecto en GitHub debe ser claro, conciso y proporcionar toda la información necesaria para que otros desarrolladores o usuarios entiendan de qué trata el proyecto, cómo pueden usarlo, cómo contribuir y cualquier otra información relevante. A continuación, te proporciono una plantilla que puedes usar y adaptar según tu proyecto:
+
 
 ---
 
